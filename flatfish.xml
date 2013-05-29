@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="aosp"
-          fetch="https://android.googlesource.com/" />
+          fetch="file:///srv/git/pub/aosp" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="apitrace"
@@ -10,7 +10,7 @@
   <remote name="caf"
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
-          fetch="https://git.mozilla.org/releases" />
+          fetch="file:///srv/git/pub/mozillaorg/releases" />
   <remote name="allwinner"
           fetch="https://github.com/flatfish-fox/" />
 

@@ -2,7 +2,7 @@
 
   <include name="base-kk-aosp.xml"/>
 
-  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 
   <!-- Nexus 5 specific things -->
   <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="b2g-4.4.2_r1"/>

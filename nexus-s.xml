@@ -2,18 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="file:///srv/git/pub/aosp" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
-  <remote  name="caf"
-          fetch="git://codeaurora.org/" />
-  <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" 
-      fetch="https://git.mozilla.org/releases" />
+      fetch="file:///srv/git/pub/mozillaorg/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="caf"
+           remote="aosp"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->

@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="file:///srv/git/pub/aosp" />
   <remote name="b2gmozilla"
           fetch="https://git.mozilla.org/b2g" />
   <remote name="b2g"
@@ -10,9 +10,9 @@
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="caf"
-          fetch="git://codeaurora.org/" />
+          fetch="file:///srv/git/pub/codeaurora" />
   <remote name="mozillaorg"
-           fetch="https://git.mozilla.org/releases" />
+           fetch="file:///srv/git/pub/mozillaorg/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="ics_chocolate_rb4.2"
            remote="caf"

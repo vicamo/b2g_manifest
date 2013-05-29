@@ -2,13 +2,13 @@
 <manifest>
 
   <remote name="aosp"
-          fetch="https://android.googlesource.com/" />
+          fetch="file:///srv/git/pub/aosp" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="apitrace"
           fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg"
-          fetch="https://git.mozilla.org/releases" />
+          fetch="file:///srv/git/pub/mozillaorg/releases" />
   <remote name="apc-io"
           fetch="https://github.com/apc-io" />
 
