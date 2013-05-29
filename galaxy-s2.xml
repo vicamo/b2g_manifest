@@ -1,12 +1,10 @@
 <?xml version="1.0" ?><manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
+  <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="http://android.git.linaro.org/git-ro/" name="linaro"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <default remote="linaro" revision="refs/tags/android-4.0.4_r1.2" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-4.0.4_r1.2" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project name="platform_build" path="build" remote="b2g" revision="v1.4">
@@ -42,7 +40,7 @@
   <project name="platform/external/flac" path="external/flac" revision="718d3bb8af55d66c69afd862e18bb9c4c533d585"/>
   <project name="platform/external/freetype" path="external/freetype" revision="42a87bc97609088a402eb57f26891e588f6ff9e2"/>
   <project name="platform/external/giflib" path="external/giflib" revision="a0de708bac5b54e54fae045bb6daa1d57de94238"/>
-  <project name="platform/external/gtest" path="external/gtest" remote="linaro" revision="8c212ebe53bb2baab3575f03069016f1fb11e449"/>
+  <project name="platform/external/gtest" path="external/gtest" revision="8c212ebe53bb2baab3575f03069016f1fb11e449"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="dbd09c40aa7e27ed83e23d709fb6567be140594f"/>
   <project name="platform/external/icu4c" path="external/icu4c" revision="9e344b718d58aeecc5fe6ff28ba0f725b446a1ce"/>
   <project name="platform/external/iptables" path="external/iptables" revision="76905aa181ffa5e51fce9c764d605d8ccdeb4511"/>

@@ -1,11 +1,9 @@
 <?xml version="1.0" ?><manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="https://git.mozilla.org/b2g" name="b2gmozilla"/>
+  <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <default remote="caf" revision="ics_chocolate_rb4.2" sync-j="4"/>
 
@@ -109,5 +107,5 @@
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="23d5707b320d7fc69f8ba3b7d84d78a1c5681708"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="8892d46805c5639b55dd07547745c5180da861e7"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core" revision="ab17ac9a074b4bb69986a8436336bdfbbaf9cd39"/>
-  <project name="platform/hardware/ril" path="hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5"/>
 </manifest>
