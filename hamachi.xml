@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
 
-  <remote name="aosp" fetch="https://android.googlesource.com/"/>
+  <remote name="aosp" fetch="file:///srv/git/pub/aosp"/>
   <remote name="b2g" fetch="https://git.mozilla.org/b2g"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
-  <remote name="caf" fetch="git://codeaurora.org/"/>
+  <remote name="caf" fetch="file:///srv/git/pub/codeaurora"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <default revision="b2g/ics_strawberry_v1" remote="caf" sync-j="4"/>
 

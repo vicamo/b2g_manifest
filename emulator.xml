@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
 
-  <remote name="aosp" fetch="https://android.googlesource.com/"/>
+  <remote name="aosp" fetch="file:///srv/git/pub/aosp"/>
   <remote name="b2g" fetch="https://git.mozilla.org/b2g"/>
-  <remote name="caf" fetch="git://codeaurora.org/"/>
-  <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
-  <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
+  <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform_build" remote="b2g" revision="7cb46499e0b91ca20f6aed58d6067d7c451875b9" upstream="v1-train">
