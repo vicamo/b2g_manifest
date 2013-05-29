@@ -134,7 +134,7 @@
 
 
 
-  <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <!-- Nexus 4 specific things -->
   <project name="device-mako" path="device/lge/mako" remote="b2g" revision="v2.1"/>

@@ -1,13 +1,10 @@
 <?xml version="1.0" ?><manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="https://git.mozilla.org/b2g" name="b2gmozilla"/>
+  <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <default remote="caf" revision="refs/tags/android-4.0.4_r2.1" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-4.0.4_r2.1" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project name="platform_build" path="build" remote="b2g" revision="v2.1">
