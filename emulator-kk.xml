@@ -136,7 +136,7 @@
 
 
 
-  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 
   <!-- Emulator specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="72ffdf71c68a96309212eb13d63560d66db14c9e"/>
