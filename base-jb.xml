@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
+  <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
@@ -64,7 +64,7 @@
   <project name="platform/external/gtest" path="external/gtest"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
-  <project name="platform/external/icu4c" path="external/icu4c" revision="a8f744cec5125866672e131f328cc5a6e35c9173"/>
+  <project name="platform/external/icu4c" path="external/icu4c" />
   <project name="platform/external/iproute2" path="external/iproute2"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project name="platform/external/iptables" path="external/iptables"/>
