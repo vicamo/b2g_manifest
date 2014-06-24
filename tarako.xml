@@ -6,7 +6,7 @@
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla" fetch="git://github.com/mozilla/" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <remote name="mozillaorg" fetch="file:///srv/git/pub/mozillaorg/releases" />
+  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
   <remote name="sprd-b2g" fetch="http://sprdsource.spreadtrum.com:8085/b2g" />
   <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" sync-j="4" />
 

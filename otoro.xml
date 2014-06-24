@@ -12,7 +12,7 @@
   <remote name="caf"
           fetch="file:///srv/git/pub/codeaurora" />
   <remote name="mozillaorg"
-           fetch="file:///srv/git/pub/mozillaorg/releases" />
+           fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="ics_chocolate_rb4.2"
            remote="caf"

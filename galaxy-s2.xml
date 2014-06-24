@@ -6,7 +6,7 @@
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozillaorg"
-      fetch="file:///srv/git/pub/mozillaorg/releases" />
+      fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"

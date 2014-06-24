@@ -8,7 +8,7 @@
   <remote name="apitrace"
           fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg"
-          fetch="file:///srv/git/pub/mozillaorg/releases" />
+          fetch="https://git.mozilla.org/releases" />
   <remote name="apc-io"
           fetch="https://github.com/apc-io" />
 

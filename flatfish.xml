@@ -10,7 +10,7 @@
   <remote name="caf"
           fetch="git://codeaurora.org/" />
   <remote name="mozillaorg"
-          fetch="file:///srv/git/pub/mozillaorg/releases" />
+          fetch="https://git.mozilla.org/releases" />
   <remote name="allwinner"
           fetch="https://github.com/flatfish-fox/" />
 
