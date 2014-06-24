@@ -3,7 +3,7 @@
   <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
+  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="https://github.com/flatfish-fox/" name="allwinner"/>
 
   <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>

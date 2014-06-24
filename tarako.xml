@@ -4,7 +4,7 @@
   <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g/android" name="sprd-aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
+  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="http://sprdsource.spreadtrum.com:8085/b2g" name="sprd-b2g"/>
   <default remote="aosp" revision="refs/tags/android-4.0.4_r2.1" sync-j="4"/>
 
