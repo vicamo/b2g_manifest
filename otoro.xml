@@ -3,7 +3,7 @@
   <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
+  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <default remote="caf" revision="ics_chocolate_rb4.2" sync-j="4"/>
 

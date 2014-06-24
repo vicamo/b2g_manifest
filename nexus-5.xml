@@ -7,7 +7,7 @@
   <remote fetch="file:///srv/git/pub/aosp" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="file:///srv/git/pub/mozillaorg/releases" name="mozillaorg"/>
+  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
